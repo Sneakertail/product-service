@@ -23,8 +23,8 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: sneakertail/product-service:latest
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/sneakertail/product-service:dev
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 3002
